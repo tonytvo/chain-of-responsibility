@@ -1,6 +1,6 @@
 package pl.refactoring.tutor.chain;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import pl.refactoring.tutor.chain.card.Card;
 
 import java.util.List;

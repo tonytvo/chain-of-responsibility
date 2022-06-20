@@ -1,7 +1,7 @@
 package pl.refactoring.tutor.chain;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import static pl.refactoring.tutor.chain.HandAssert.assertThat;
 import static pl.refactoring.tutor.chain.card.Card.aCard;
@@ -22,7 +22,7 @@ import static pl.refactoring.tutor.chain.card.SUIT.*;
 public class HandResolverTest {
     private HandResolver handResolver;
 
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         handResolver = new HandResolver();
     }

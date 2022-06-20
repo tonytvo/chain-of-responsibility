@@ -1,0 +1,5 @@
+rootProject.name = 'chain-of-responsibility-refactoring'
+include 'Chain-Of-Responsibility'
+include 'Chain-Of-Responsibility-Middle'
+include 'Tutor-Chain-Of-Responsibility'
+

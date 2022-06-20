@@ -8,5 +8,6 @@
 
 /.settings
 /.project
-/target
+/targeti
+build/
 .DS_Store
