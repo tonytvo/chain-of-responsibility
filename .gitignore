@@ -8,6 +8,7 @@
 
 /.settings
 /.project
-/targeti
+/target
 build/
+.gradle/
 .DS_Store
