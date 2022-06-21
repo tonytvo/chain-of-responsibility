@@ -10,4 +10,5 @@
 /.project
 /targeti
 build/
+.gradle
 .DS_Store
