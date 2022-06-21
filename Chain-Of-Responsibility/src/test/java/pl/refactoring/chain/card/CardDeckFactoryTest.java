@@ -1,8 +1,8 @@
 package pl.refactoring.chain.card;
 
 import org.assertj.core.api.Assertions;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.util.Set;
 
@@ -23,7 +23,7 @@ import static pl.refactoring.chain.card.Card.aCard;
 public class CardDeckFactoryTest {
     private CardDeckFactory factory;
 
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         factory = new CardDeckFactory();
     }
